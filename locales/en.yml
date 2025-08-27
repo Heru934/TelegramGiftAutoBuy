@@ -1,0 +1,39 @@
+errors:
+  missing_config: |
+    Missing Required Configuration
+    {}
+
+    
+    Visit https://github.com/bohd4nx/Gifts-Buyer/blob/master/README.md for more information.
+
+telegram:
+  start_message: |
+    Сам заебал
+  peer_id_error: |
+    <b>❗Error while sending gift!</b>
+
+    Please make sure the initialization message has been sent successfully 
+    and that you have interacted with this user previously.
+  error_message: "<b>❗Error while buying a gift!</b>\n\n<pre>%{error}</pre>"
+  balance_error: "<b>🎁 Gift</b> [<code>%{gift_id}</code>] could not be sent due to insufficient balance!\n\n<b>Required:</b> <code>%{gift_price} ⭐</code>\n<b>Balance:</b> <code>%{current_balance} ⭐</code>"
+  range_error: "<b>🎁 Gift</b> [<code>%{gift_id}</code>] does not match configured ranges\n\nPrice: <b>%{price} ⭐</b> | Supply: <b>%{supply}</b>. Skipping..."
+  success_message: "<b>🎁 Gift (%{current}/%{total}):</b> [<code>%{gift_id}</code>] has been successfully sent!\n\n<b>Recipient:%{recipient}</b>"
+  skip_summary_header: "<b>📊 Gift processing summary:</b>\n"
+  sold_out_item: "• <b>%{count}</b> sold out gifts skipped"
+  non_limited_item: "• <b>%{count}</b> non-limited gifts skipped"
+  non_upgradable_item: "• <b>%{count}</b> non-upgradable gifts skipped"
+  available: "Available"
+
+console:
+  low_balance: "Insufficient stars balance to send gift [%{gift_id}]!"
+  gift_send_error: "Failed to send gift: %{gift_id} to user: %{chat_id}"
+  gift_checking: "Checking for new gifts"
+  new_gifts: "New gifts found:"
+  purchase_error: "Error while buying a gift %{gift_id} for user: %{chat_id}"
+  terminated: "Program terminated"
+  unexpected_error: "An unexpected error occurred:"
+  gift_sent: "Gift (%{current}/%{total}): %{gift_id} successfully sent to %{recipient}"
+  skip_summary: "Skipped gifts summary: sold out: %{sold_out}, non-limited: %{non_limited}, non-upgradable: %{non_upgradable}"
+  processing_gift: "Processing gift [%{gift_id}] quantity: %{quantity} recipients: %{recipients_count}"
+  partial_purchase: "Partial purchase [%{gift_id}]: bought %{purchased}/%{requested}, missing %{remaining_needed}⭐ (balance: %{current_balance}⭐)"
+  insufficient_balance_for_quantity: "Insufficient balance to buy %{requested} gifts [%{gift_id}] at %{price}⭐. Balance: %{balance}⭐"

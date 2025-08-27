@@ -1,0 +1,8 @@
+services:
+  gift-buyer:
+    build: .
+    container_name: gift-buyer
+    restart: always
+    volumes:
+      - ./data:/app/data
+      - ./config.ini:/app/config.ini

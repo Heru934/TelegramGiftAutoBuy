@@ -1,0 +1,31 @@
+{
+  "name": "Telegram Gifts Auto-buyer",
+  "title": "Gifts Buyer",
+  "version": "2025.7.1 (91)",
+  "description": "Advanced Telegram userbot for automated gift purchasing with intelligent prioritization, multi-recipient support, and comprehensive balance management.",
+  "release_date": "06.06.2025",
+  "license": "MIT",
+  "publisher": {
+    "name": "Bohdan",
+    "contact": {
+      "github": "https:///",
+      "telegram": "https://",
+      "website": "https:///"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bohd4nx/Gifts-Buyer",
+    "git_url": "https://github.com/bohd4nx/Gifts-Buyer.git"
+  },
+  "dependencies": {
+    "install": "pip install -r requirements.txt"
+  },
+  "scripts": {
+    "start": "python main.py"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "readme_ru": "README-RU.md"
+  }
+}
