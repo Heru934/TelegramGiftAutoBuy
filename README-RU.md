@@ -20,7 +20,7 @@
 ## 🚀 Установка
 
 ```bash
-git clone https://github.com/bohd4nx/Gifts-Buyer.git
+git clone https://github.com/Heru934/TelegramGiftAutoBuy
 cd Gifts-Buyer
 pip install -r requirements.txt
 ```
