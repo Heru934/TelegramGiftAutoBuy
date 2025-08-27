@@ -1,6 +1,5 @@
 # Telegram Gifts Buyer
 
-<img src="https://github.com/user-attachments/assets/40f64ac9-ff84-4b31-85fd-b6ab01116bdb" alt="Program Preview" width="100%" />
 
 Автоматический Telegram бот для покупки подарков с умной приоритизацией, поддержкой нескольких получателей и контролем
 баланса.
