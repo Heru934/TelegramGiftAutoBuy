@@ -1,6 +1,6 @@
 # Telegram Gifts Buyer
 
-<img src="https://github.com/user-attachments/assets/40f64ac9-ff84-4b31-85fd-b6ab01116bdb" alt="Program Preview" width="100%" />
+
 
 Automated Telegram userbot for purchasing gifts with smart prioritization, multiple recipients, and intelligent balance
 management.
@@ -20,7 +20,7 @@ management.
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/bohd4nx/Gifts-Buyer.git
+git clone https://github.com/Heru934/TelegramGiftAutoBuy
 cd Gifts-Buyer
 pip install -r requirements.txt
 ```
